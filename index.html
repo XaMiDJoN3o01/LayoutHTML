@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/font/css/all.css">
+    <link rel="stylesheet" href="style/css/header.css">
+    <link rel="stylesheet" href="style/css/main.css">
+    <title>StopKadr</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <header>
+            <div class="row no-gutters menu">
+                <div class="col-md-2">
+                    <a href="index.html"><img src="img/main/logo.jpg" alt="StopKadr"></a>
+                </div>
+                <div class="col-md-10">
+                    <div class="navbar row no-gutters">
+                        <ul class="nav head">
+                            <li class="nav-item"><a href="#" class="nav-link">Фильмы</a></li>
+                            <li class="nav-item"><a href="movie.html" class="nav-link">О фильмах</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Сериалы</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">О сериалах</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Звёзды</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Трейлеры</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Блог</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav row no-gutters">
+                        <p  class="col-sm-1" id="Time"><span id="week"></span>, <span id="hh"></span>:<span id="mm"></span>:<span id="ss"></span></p>
+                        <form class="col-sm-7">
+                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="container link shadow p-3 mb-5 bg-white rounded">
+                <div class="row no-gutters">
+                    <div class="col container ">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <h4>20</h4>
+                                <a href="#">сериалов</a>
+                            </li>
+                            <li class="list-inline-item">
+                                 <h4>350</h4>
+                                <a href="#">серий</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <h4>10</h4>
+                                <a href="#">фильмов</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <h4>100</h4>
+                                <a href="#">мнений</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col box container">
+                        <div class="envelope">
+                            <i class="far fa-envelope"></i>
+                            <p>Мои сообщения</p>
+                        </div>
+                        <div class="ico01">
+                            <p>Okunev <i class="fas fa-times"></i></p>
+                            <img src="img/main/ico-01.jpg" alt="Okunev">
+                        </div>    
+                        <div class="like">
+                            <i class="far fa-heart"></i>
+                            <p>Мои интересы</p>
+                        </div>                                   
+                    </div>
+                    <div class="col container ">
+                        <ul class="list-inline">
+                            <li class="list-inline-item vk">
+                                <a href="#"><i class="fab fa-vk"></i></a>
+                            </li>
+                            <li class="list-inline-item ok">
+                                <a href="#"><i class="fab fa-odnoklassniki"></i></a>
+                            </li>
+                            <li class="list-inline-item fb">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li class="list-inline-item tw">
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="teg">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href=""><p>Все новости</p></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href=""><p>ТОП сериалов</p></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href=""><p>ТОП фильмов</p></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href=""><p>Скоро наэкранах</p></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href=""><p>Зал ожиданий</p></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="container-fluid">
+        <main>
+            <button type="button" class="btt">Обновления</button>
+            <div class="container">
+                <div class="row no-gutters news">
+                    <div class="col-md">
+                        <ul class="list">
+                            <li><p>01.02.15</p><p id="serials"> Сериалы </p><i class="fas fa-long-arrow-alt-right"></i><a href="#">Черные паруса</a></li>
+                            <li><p>28.01.15</p><p id="serials"> Сериалы </p><i class="fas fa-long-arrow-alt-right"></i><a href="#">Единство</a></li>
+                            <li><p>27.01.15</p><p id="serials"> Сериалы </p><i class="fas fa-long-arrow-alt-right"></i><a href="#">Константин</a></li>
+                            <li><p>27.01.15</p><p id="serials"> О сериалы </p><i class="fas fa-long-arrow-alt-right"></i><a href="#">Одинокие сердце о</a></li>
+                            <li><p>26.01.15</p><p id="serials"> Сериалы </p><i class="fas fa-long-arrow-alt-right"></i><a href="#">Империя</a></li>
+                            <li><p>25.01.15</p><p id="serials"> Сериалы </p><i class="fas fa-long-arrow-alt-right"></i><a href="#">СашаТаня</a></li>
+                            <li><p>23.01.15</p><p id="serials"> Сериалы </p><i class="fas fa-long-arrow-alt-right"></i><a href="#">Бруклин 9-9</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md">
+                        <ul class="list">
+                            <li><p>30.01.15</p><p id="serials"> Сериалы </p><i class="fas fa-long-arrow-alt-right"></i><a href="#">Люди икс станут</a></li>
+                            <li><p>27.01.15</p><p id="serials"> Сериалы </p><i class="fas fa-long-arrow-alt-right"></i><a href="#">Спираль</a></li>
+                            <li><p>27.01.15</p><p id="serials"> О сериалы </p><i class="fas fa-long-arrow-alt-right"></i><a href="#">Эпичное возвращение</a></li>
+                            <li><p>27.01.15</p><p id="serials"> Сериалы </p><i class="fas fa-long-arrow-alt-right"></i><a href="#">Терра Нова</a></li>
+                            <li><p>26.01.15</p><p id="serials"> Сериалы </p><i class="fas fa-long-arrow-alt-right"></i><a href="#">Готэм</a></li>
+                            <li><p>24.01.15</p><p id="serials"> Сериалы </p><i class="fas fa-long-arrow-alt-right"></i><a href="#">Стрела</a></li>
+                            <li><p>23.01.15</p><p id="serials"> Сериалы </p><i class="fas fa-long-arrow-alt-right"></i><a href="#">Гоморро</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md">
+                        <ul class="list">
+                            <li><p>30.01.15</p><p id="serials"> Сериалы </p><i class="fas fa-long-arrow-alt-right"></i><a href="#">Мужина ищет женщину</a></li>
+                            <li><p>27.01.15</p><p id="serials"> Сериалы </p><i class="fas fa-long-arrow-alt-right"></i><a href="#">Звёздные войны</a></li>
+                            <li><p>27.01.15</p><p id="serials"> Сериалы </p><i class="fas fa-long-arrow-alt-right"></i><a href="#">Отбросы (Плохие)</a></li>
+                            <li><p>26.01.15</p><p id="serials"> Сериалы </p><i class="fas fa-long-arrow-alt-right"></i><a href="#">Тихий океан</a></li>
+                            <li><p>26.01.15</p><p id="serials"> Сериалы </p><i class="fas fa-long-arrow-alt-right"></i><a href="#">Флеш</a></li>
+                            <li><p>24.01.15</p><p id="serials"> Зал ожиданий </p><i class="fas fa-long-arrow-alt-right"></i><a href="#">Преданность</a></li>
+                            <li><p>22.01.15</p><p id="serials"> Сериалы </p><i class="fas fa-long-arrow-alt-right"></i><a href="#">Бесстыдники</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-md">
+                    <button type="button" class="btt">ФИЛЬМЫ И СЕРИАЛЫ</button>
+                </div>
+                <div class="col-md">
+                    <button type="button" class="btt">ОБСУЖДЕНИЯ</button>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row no-gutters">
+                    <div class="col-md left">
+                        <div class="row no-gutters">
+                            <div class="col-md-2 lside">
+                                <h4>01</h4>
+                                <p>Февраль</p>
+                                <p>2015</p>
+                            </div>
+                            <div class="col-md card">
+                                <a href="movie.html">
+                                    <img src="img/main/left-01.jpg" class="card-img-top" alt="...">
+                                </a>
+                                <div class="card-body cardbody">
+                                    <p style="background-color: orange; color: white;">КП</p><span>7.49</span>
+                                    <p style="background-color: rgb(243, 245, 108); color: rgb(184, 139, 57);">IMDB</p><span>7.9</span>
+                                    <p style="background-color: rgb(0, 140, 255); color: white">SR</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col-md-2 lside">
+                                <h4>01</h4>
+                                <p>Февраль</p>
+                                <p>2015</p>
+                            </div>
+                            <div class="col-md card">
+                                <a href="#">
+                                    <img src="img/main/left-02.jpg" class="card-img-top" alt="...">
+                                </a>
+                                <div class="card-body cardbody">
+                                    <p style="background-color: orange; color: white;">КП</p><span>7.49</span>
+                                    <p style="background-color: rgb(243, 245, 108); color: rgb(184, 139, 57);">IMDB</p><span>7.9</span>
+                                    <p style="background-color: rgb(0, 140, 255); color: white">SR</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col-md-2 lside">
+                                <h4>01</h4>
+                                <p>Февраль</p>
+                                <p>2015</p>
+                            </div>
+                            <div class="col-md card">
+                                <a href="#">
+                                    <img src="img/main/left-03.jpg" class="card-img-top" alt="...">
+                                </a>
+                                <div class="card-body cardbody">
+                                    <p style="background-color: orange; color: white;">КП</p><span>7.49</span>
+                                    <p style="background-color: rgb(243, 245, 108); color: rgb(184, 139, 57);">IMDB</p><span>7.9</span>
+                                    <p style="background-color: rgb(0, 140, 255); color: white">SR</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col-md-2 lside">
+                                <h4>01</h4>
+                                <p>Февраль</p>
+                                <p>2015</p>
+                            </div>
+                            <div class="col-md card">
+                                <a href="#">
+                                    <img src="img/main/left-04.jpg" class="card-img-top" alt="...">
+                                </a>
+                                <div class="card-body cardbody">
+                                    <p style="background-color: orange; color: white;">КП</p><span>7.49</span>
+                                    <p style="background-color: rgb(243, 245, 108); color: rgb(184, 139, 57);">IMDB</p><span>7.9</span>
+                                    <p style="background-color: rgb(0, 140, 255); color: white">SR</p>
+                                    <div class="container lorem">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minus nihil deleniti quo consequuntur,
+                                        culpa, quia tenetur provident, eos optio natus quod harum. 
+                                        Ratione excepturi repudiandae esse sequi ad natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col-md-2 lside">
+                                <h4>01</h4>
+                                <p>Февраль</p>
+                                <p>2015</p>
+                            </div>
+                            <div class="col-md card">
+                                <a href="">
+                                    <img src="img/main/left-05.jpg" class="card-img-top" alt="...">
+                                </a>
+                                <div class="card-body cardbody">
+                                    <p style="background-color: orange; color: white;">КП</p><span>7.49</span>
+                                    <p style="background-color: rgb(243, 245, 108); color: rgb(184, 139, 57);">IMDB</p><span>7.9</span>
+                                    <p style="background-color: rgb(0, 140, 255); color: white">SR</p>
+                                    <div class="container lorem">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minus nihil deleniti quo consequuntur,
+                                        culpa, quia tenetur provident, eos optio natus quod harum. 
+                                        Ratione excepturi repudiandae esse sequi ad natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col-md-2 lside">
+                                <h4>01</h4>
+                                <p>Февраль</p>
+                                <p>2015</p>
+                            </div>
+                            <div class="col-md card">
+                                <a href="#">
+                                    <img src="img/main/left-06.jpg" class="card-img-top" alt="...">
+                                </a>
+                                <div class="card-body cardbody">
+                                    <p style="background-color: orange; color: white;">КП</p><span>7.49</span>
+                                    <p style="background-color: rgb(243, 245, 108); color: rgb(184, 139, 57);">IMDB</p><span>7.9</span>
+                                    <p style="background-color: rgb(0, 140, 255); color: white">SR</p>
+                                    <div class="container lorem">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minus nihil deleniti quo consequuntur,
+                                        culpa, quia tenetur provident, eos optio natus quod harum. 
+                                        Ratione excepturi repudiandae esse sequi ad natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col-md-2 lside">
+                                <h4>01</h4>
+                                <p>Февраль</p>
+                                <p>2015</p>
+                            </div>
+                            <div class="col-md card">
+                                <a href="#">
+                                    <img src="img/main/left-07.jpg" class="card-img-top" alt="...">
+                                </a>
+                                <div class="card-body cardbody">
+                                    <p style="background-color: orange; color: white;">КП</p><span>7.49</span>
+                                    <p style="background-color: rgb(243, 245, 108); color: rgb(184, 139, 57);">IMDB</p><span>7.9</span>
+                                    <p style="background-color: rgb(0, 140, 255); color: white">SR</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col-md-2 lside">
+                                <h4>01</h4>
+                                <p>Февраль</p>
+                                <p>2015</p>
+                            </div>
+                            <div class="col-md card">
+                                <a href="#">
+                                    <img src="img/main/left-08.jpg" class="card-img-top" alt="...">
+                                </a>
+                                <div class="card-body cardbody">
+                                    <p style="background-color: orange; color: white;">КП</p><span>7.49</span>
+                                    <p style="background-color: rgb(243, 245, 108); color: rgb(184, 139, 57);">IMDB</p><span>7.9</span>
+                                    <p style="background-color: rgb(0, 140, 255); color: white">SR</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col-md-2 lside">
+                                <h4>01</h4>
+                                <p>Февраль</p>
+                                <p>2015</p>
+                            </div>
+                            <div class="col-md card">
+                                <a href="#">
+                                    <img src="img/main/left-09.jpg" class="card-img-top" alt="...">
+                                </a>
+                                <div class="card-body cardbody">
+                                    <p style="background-color: orange; color: white;">КП</p><span>7.49</span>
+                                    <p style="background-color: rgb(243, 245, 108); color: rgb(184, 139, 57);">IMDB</p><span>7.9</span>
+                                    <p style="background-color: rgb(0, 140, 255); color: white">SR</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col-md-2 lside">
+                                <h4>01</h4>
+                                <p>Февраль</p>
+                                <p>2015</p>
+                            </div>
+                            <div class="col-md card">
+                                <a href="#">
+                                    <img src="img/main/left-10.jpg" class="card-img-top" alt="...">
+                                </a>
+                                <div class="card-body cardbody">
+                                    <p style="background-color: orange; color: white;">КП</p><span>7.49</span>
+                                    <p style="background-color: rgb(243, 245, 108); color: rgb(184, 139, 57);">IMDB</p><span>7.9</span>
+                                    <p style="background-color: rgb(0, 140, 255); color: white">SR</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md right">
+                        <div class="card">
+                            <a href="#">
+                                <img src="img/main/right-01.jpg" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <div class="container lorem">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minus nihil deleniti quo consequuntur,
+                                    culpa, quia tenetur provident, eos optio natus quod harum. 
+                                    Ratione excepturi repudiandae esse sequi ad natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </div>                         
+                            </div>
+                        </div>
+                        <div class="card">
+                            <a href="#">
+                                <img src="img/main/right-02.jpg" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <div class="container lorem">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minus nihil deleniti quo consequuntur,
+                                    culpa, quia tenetur provident, eos optio natus quod harum. 
+                                    Ratione excepturi repudiandae esse sequi ad natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </div>                         
+                            </div>
+                        </div>
+                        <div class="card">
+                            <a href="#">
+                                <img src="img/main/right-03.jpg" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <div class="container lorem">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minus nihil deleniti quo consequuntur,
+                                    culpa, quia tenetur provident, eos optio natus quod harum. 
+                                    Ratione excepturi repudiandae esse sequi ad natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </div>                         
+                            </div>
+                        </div>
+                        <div class="card">
+                            <a href="#">
+                                <img src="img/main/right-04.jpg" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <div class="container lorem">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minus nihil deleniti quo consequuntur,
+                                    culpa, quia tenetur provident, eos optio natus quod harum. 
+                                    Ratione excepturi repudiandae esse sequi ad natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </div>                         
+                            </div>
+                        </div>
+                        <div class="card">
+                            <a href="#">
+                                <img src="img/main/right-05.jpg" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <div class="container lorem">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minus nihil deleniti quo consequuntur,
+                                    culpa, quia tenetur provident, eos optio natus quod harum. 
+                                    Ratione excepturi repudiandae esse sequi ad natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </div>                         
+                            </div>
+                        </div>
+                        <div class="card">
+                            <a href="#">
+                                <img src="img/main/right-06.jpg" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <div class="container lorem">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minus nihil deleniti quo consequuntur,
+                                    culpa, quia tenetur provident, eos optio natus quod harum. 
+                                    Ratione excepturi repudiandae esse sequi ad natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </div>                         
+                            </div>
+                        </div>
+                        <div class="card">
+                            <a href="#">
+                                <img src="img/main/right-07.jpg" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <div class="container lorem">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minus nihil deleniti quo consequuntur,
+                                    culpa, quia tenetur provident, eos optio natus quod harum. 
+                                    Ratione excepturi repudiandae esse sequi ad natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </div>                         
+                            </div>
+                        </div>
+                        <div class="card">
+                            <a href="#">
+                                <img src="img/main/right-08.jpg" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <div class="container lorem">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minus nihil deleniti quo consequuntur,
+                                    culpa, quia tenetur provident, eos optio natus quod harum. 
+                                    Ratione excepturi repudiandae esse sequi ad natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </div>                         
+                            </div>
+                        </div>
+                        <div class="card">
+                            <a href="#">
+                                <img src="img/main/right-09.jpg" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <div class="container lorem">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minus nihil deleniti quo consequuntur,
+                                    culpa, quia tenetur provident, eos optio natus quod harum. 
+                                    Ratione excepturi repudiandae esse sequi ad natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </div>                         
+                            </div>
+                        </div>
+                        <div class="card">
+                            <a href="#">
+                                <img src="img/main/right-10.jpg" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <div class="container lorem">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minus nihil deleniti quo consequuntur,
+                                    culpa, quia tenetur provident, eos optio natus quod harum. 
+                                    Ratione excepturi repudiandae esse sequi ad natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </div>                         
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <button type="button" class="btt"><a href="stars.html">Звёздные лица</a> </button>
+                <div class="row no-gutters stars">
+                    <div class="col-md ico">
+                        <a href="#">
+                            <img src="img/main/person-01.jpg" alt="Rik Kosnett">
+                            <p>Рик Коснетт</p>
+                        </a>
+                    </div>
+                    <div class="col-md ico">
+                        <a href="#">
+                            <img src="img/main/person-02.jpg" alt="Kristofer Pret">
+                            <p>Кристофер Прэт</p>
+                        </a>
+                    </div>
+                    <div class="col-md ico">
+                        <a href="#">
+                            <img src="img/main/person-03.jpg" alt="Grant Gastin">
+                            <p>Грант Гастин</p>
+                        </a>
+                    </div>
+                    <div class="col-md ico">
+                        <a href="#">
+                            <img src="img/main/person-04.jpg" alt="Valeria Dimitrieva">
+                            <p>Валерия Димитриева</p>
+                        </a>
+                    </div>
+                    <div class="col-md ico">
+                        <a href="#">
+                            <img src="img/main/person-05.jpg" alt="Sergey Romanovich">
+                            <p>Сергей Романович</p>
+                        </a>
+                    </div>
+                    <div class="col-md ico">
+                        <a href="bio.html">
+                            <img src="img/main/person-06.jpg" alt="Anvar Halilulaev">
+                            <p>Анвар Халилулаев</p>
+                        </a>
+                    </div>
+                    <div class="col-md ico">
+                        <a href="#">
+                            <img src="img/main/person-07.jpg" alt="Brenton Tuest">
+                            <p>Брентон Туэйст</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>2015 StopKadr - все сериалы и Фильмы</p>
+            <p>в жанре фантастика, фэнтези, приключения, комиксы</p>
+            <p><a href="#">Правила</a> | <a href="#">Реклама</a> | <a href="#">Статистика</a></p>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

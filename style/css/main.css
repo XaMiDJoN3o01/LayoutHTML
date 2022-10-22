@@ -1,0 +1,120 @@
+/************************************
+********* section  main *************
+************************************/
+
+main{
+    background-color: rgb(251, 253, 251);
+    width: 1349px;
+    margin: 0 auto;
+}
+.btt{
+    margin: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    height: 35px;
+    border-radius: 20px;
+    border: 4px groove rgb(233, 232, 232);
+    background-color: white;
+    font-weight: bold;
+}
+.btt:hover{
+    border: 4px groove rgb(233, 232, 232);
+    background-color: rgb(37, 37, 37);
+    color: #fff;
+}
+/************************************
+********* div  news **************
+************************************/
+
+.news ul{
+    margin: 0;
+    padding: 0;
+}
+.list li{
+    line-height: 1px;
+    list-style-type: none;
+}
+.list li p{
+    display: inline-block;
+}
+#serials{
+    display: inline-block;
+    padding: 5px;    
+    color: rgb(189, 189, 189);
+}
+.list li a{
+    color: rgb(30, 103, 133);    
+}
+.list li a:hover{
+    text-decoration: none;
+    color: rgb(109, 118, 238);    
+}
+/************************************
+********* div  left ***************
+************************************/
+.left{
+    margin:0 20px
+}
+.lside{
+    text-align: center;
+    margin-top: 100px;
+    line-height: 5px;
+}
+.left img{
+    width: fill;
+    padding: 10px;
+}
+.card{
+    margin-top: 40px;
+}
+.cardbody{
+    padding: 0;
+}
+.cardbody p{
+    margin-left: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.cardbody span{
+    font-weight: bold;
+    color: green;
+    margin-left: 5px;
+}
+.lorem{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+/************************************
+********* div right *************
+************************************/
+.right{
+    margin:0 20px;
+}
+.right img{
+    width: fill;
+    padding: 10px;
+}
+/************************************
+********* div stars *************
+************************************/
+.ico a:hover{
+    text-decoration: none;
+}
+.ico img{
+    width: 130px;
+    border-radius: 50%;
+}
+.ico{
+    text-align: center;
+}
+.ico p{
+    line-height: 15px;
+    color: rgb(76, 144, 167);
+    font-weight: bold;
+    font-size: 18px;
+}

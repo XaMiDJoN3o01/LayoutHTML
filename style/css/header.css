@@ -1,0 +1,136 @@
+/************************************
+************** header ***************
+************************************/
+header{
+    width: 1349px;
+    margin: 0 auto;
+    height: 360px;
+    background: url(../../img/main/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu {
+    margin: auto;
+    height: 135px;
+    background: rgba(0, 0, 0, 0.8);
+}
+.menu a img{
+    display: block;
+    margin: 0 auto;
+    padding: 25px;
+}
+.head a{
+    color: #fff;
+}
+.head a:hover{
+    color: rgb(33, 147, 240);
+}
+#Time{
+    margin: auto 15px ;
+    color: #fff;
+    display: inline-block;
+}
+.menu div.nav form{
+    position: relative;
+    margin:auto 0;
+    float: left;
+}
+/************************************
+********* section link **************
+************************************/
+
+.link{
+    position: relative;
+    margin: -80px auto;
+    height: 140px;
+    background: rgb(252, 251, 251);
+    border-radius: 15px;
+}
+.link h4, a{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(184, 184, 184);
+}
+.link a:hover{
+    text-decoration: none;
+    color: rgb(77, 79, 80);
+}
+.envelope,.like{
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+}
+.envelope:hover,.like:hover{
+    cursor: pointer;
+}
+.envelope i,.like i{
+    border: 1px solid rgb(97, 255, 97);
+    font-size: 22px;
+    padding: 4px;
+    border-radius: 45%;
+    margin: auto;
+}
+.ico01{
+    display: inline-block;
+    text-align: center;
+}
+.ico01 img{
+    margin-top: -20px;
+    width: 130px;
+    border-radius: 50%;
+}
+.ico01 p{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 16em;
+}
+.ico01 p i{
+    color: rgb(58, 56, 56);
+}
+.box{
+    margin-top: -140px;
+}
+.vk a,.fb a,.ok a,.tw a{
+    padding: 10px;
+    font-size: 35px;
+    margin: auto 10px;
+}
+.vk a,.fb a{
+    color: rgb(71, 117, 216);
+}
+.vk a:hover,.fb a:hover{
+    color: rgb(31, 91, 219);
+}
+.ok a{
+    color: rgb(253, 188, 66);
+}
+.ok a:hover{
+    color: rgb(221, 166, 46);
+}
+.tw a{
+    color: rgb(71, 184, 221);
+}
+.tw a:hover{
+    color: rgb(12, 164, 214);
+}
+.teg{
+    text-align: center;
+}
+.teg a:hover{
+    color: rgb(80, 80, 80);
+}
+/************************************
+************** footer ***************
+************************************/
+footer{
+    width: 1349px;
+    margin: 0 auto;
+    line-height: 2px;
+    color: #fff;
+    font-weight: bold;
+    padding: 30px;
+    background-color: black;
+}
+footer a:hover{
+    text-decoration: none;
+}

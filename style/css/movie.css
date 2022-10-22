@@ -1,0 +1,68 @@
+.film{
+    padding-right: 10px;
+}
+.bio{
+    border-radius: 10px;
+    margin-top: 15px;
+    padding:10px;
+}
+.info{
+    padding: 10px;
+}
+.krug{
+    margin-left: 25px;
+    border: 3px solid blue;
+    border-radius: 50%;
+    padding: 10px;
+}
+.krug p{
+    margin-top: 10px;
+    color: rgb(50, 216, 50);
+    font-weight: bold;
+    font-size: 1.8em;
+    text-align: center;
+    vertical-align: middle;    
+}
+.kinfo p{
+    padding-left: 10px;
+    font-weight: bold;
+    color: rgb(39, 39, 238);
+}
+.kinfo span{
+    color: black;
+}
+.level{
+    padding: 25px;
+    line-height: 12px;
+    color: #fff;
+    text-align: center;
+    border: 0.1px solid rgb(2, 1, 58);
+    background-color: rgb(41, 41, 228);
+}
+.level p{
+    font-size: 14px;
+}
+.level span{
+    font-size: 32px;
+}
+.info p{
+    text-align: center;
+}
+.border p{
+    margin-top: 10px;
+    border: 1px solid blue;
+}
+.ul{
+    border-radius: 10px;
+    border: 1px solid rgb(167, 167, 167);
+    padding: 10px;
+    text-align: center;
+}
+.ul h5{
+    color: rgb(177, 176, 176);
+}
+.ul li{
+    margin: 10px auto;
+    border: 1px solid rgb(165, 165, 165);
+    list-style: none;
+}

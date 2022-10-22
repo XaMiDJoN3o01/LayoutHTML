@@ -1,0 +1,60 @@
+.col-md{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.film{
+    padding: 10px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 10px;
+}
+.film h5{
+    color: rgb(128, 125, 125);
+    text-align: center;
+    margin: 10px auto;
+}
+
+.film li{
+    padding: 5px;
+    background-color: rgb(240, 240, 240);
+    margin: 10px 5px;
+}
+.film a{
+    color: rgb(66, 65, 65);
+}
+.film a:hover{
+    color: rgb(161, 161, 197);
+    text-decoration: none;
+}
+.card{
+    background-color: rgb(244, 244, 244);
+    margin: 30px 5px;
+}
+.card img, .cardlast img{
+    margin-top: 30px;
+    border-radius: 50%;
+}
+
+.card h5{
+    text-align: center;
+    color: black;
+}
+.card p{
+    background-color: #fff;
+    border: 1px solid #fff;
+    font-weight: bold;
+}
+.card span{
+    color: blue;
+}
+.bio{
+    margin-right: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid rgb(238, 236, 236);
+    padding: 10px;
+}
+.bio h5{
+    margin: 10px auto;
+    color: rgb(128, 125, 125);
+    text-align: center;
+}
